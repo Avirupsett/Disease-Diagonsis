@@ -4,7 +4,10 @@
     "builds":[
         {
             "src":"index.py",
-            "use":"@vercel/python"
+            "use":"@vercel/python",
+            "config":{
+                "excludeFiles":"Prediction_Deases_final_1.joblib"
+            }
         }
     ],
     "routes":[
